@@ -10,8 +10,15 @@ var dollorCost = (flightCost + hotelCost) * dollor;
 
 var cost = yevroCost + dollorCost;
 
+
+
+if (cost > 0){
 if (cost <= money) {
   console.log("Pulingiz yetadi");
+      
 } else {
   console.log("Pul yetmas ekan!");
+}
+} else {
+  console.log("No'tg'ri ma'lumot")
 }
